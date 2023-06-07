@@ -1,14 +1,9 @@
 #  Imagem Docker do Kafka
 
 Este projeto tem como objetivo principal a criação de uma Máquina Virtual em <i>Docker</i> do <i>Kafka 5.5.2</i> da <i>Confluentinc</i>.
+Juntamente com o <i>Kafka</i> foram adicionadas as bibliotecas <i>paho-mqtt</i> e <i>kafka-python</i>.
 
-Na pasta <i>config</i> contém os seguintes arquivos e suas respectivas funcionalidade:
-
-* No <i>entrypoint.sh</i> contém as configurações básicas inicializadas com o <i>docker-compose.yml</i>.
-
-* requirements.txt - são os pacotes <i>pip</i> do <i>Python</i> que serão instalados assim que inicializar o <i>docker-compose.yml</i>.
-
-A pasta <i>kafka</i> é a pasta de compartilhamento de arquivos entre o hospedeiro da VM e a VM.
+A pasta <i>kafka</i> é a pasta de compartilhamento de arquivos entre o hospedeiro da VM e a VM. Na VM a pasta compartilhada se chama store_files.
 
 <hr>
 
@@ -17,6 +12,9 @@ A pasta <i>kafka</i> é a pasta de compartilhamento de arquivos entre o hospedei
 
 * Docker Desktop
 * confluentinc/cp-server:5.5.2 
+* paho-mqtt
+* kafka-python
+
 
 <hr>
 
