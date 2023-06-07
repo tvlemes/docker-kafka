@@ -5,6 +5,8 @@ Juntamente com o <i>Kafka</i> foram adicionadas as bibliotecas <i>paho-mqtt</i> 
 
 A pasta <i>kafka</i> é a pasta de compartilhamento de arquivos entre o hospedeiro da VM e a VM. Na VM a pasta compartilhada se chama store_files.
 
+![](/images/print.PNG)
+
 <hr>
 
 
