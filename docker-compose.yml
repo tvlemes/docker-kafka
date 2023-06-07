@@ -11,7 +11,7 @@ services:
 
 # BROKER
     broker:
-        image: confluentinc/cp-server:5.5.2
+        image: thiago/kafka-paho-mqtt:5.5.2
         hostname: broker
         container_name: broker
         depends_on:
